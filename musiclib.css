@@ -1,0 +1,633 @@
+
+body{
+    background-image:linear-gradient(rgb(21, 23, 118),rgb(15, 8, 137),rgb(37, 37, 188),rgb(88, 6, 88),rgb(79, 0, 79));
+    min-height:100vh;
+    max-width: 100%;
+}
+
+.Songs {
+    border-radius:7px;
+    position: absolute;
+    width:400px;
+    height: 30PX;
+    margin-left:1%;
+    margin-top: 2%;
+    background-color: rgb(235, 232, 232);
+    opacity: 50%;
+    border-color: black;
+}
+
+.Go {
+    margin-left:29.5%;
+    margin-right:0.3%;
+    position: fixed;
+    margin-top:2.5%;
+    height: 25px;
+    width: 35px;
+    padding:3px;
+    border-style: solid;
+    border-width: 1px ;
+    color:white;
+    background-color: rgb(136, 130, 140);
+    position: absolute;
+}
+
+
+.Go:hover{
+    opacity:0.6;
+    cursor: pointer;
+}
+.in {
+    margin-left:91%;
+}
+
+.btn-grp a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#horizontal-line{
+    width:1300px;
+    height: 2px;
+    background-color: rgb(93, 81, 81);
+    margin-top:3%;
+    margin-left:2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.line-grp {
+    cursor:pointer;
+    color:beige;
+    margin-left:10%;
+}
+
+.line-grp :hover{
+    text-decoration-line: underline ;
+    color:blue;
+}
+
+.Hollywood,.Trending,.Feel-good,.Indian,.bollywood,.hitsongs,.favourite {
+    margin-left:2%;
+}
+
+.flex-box{
+    display:flex;
+    flex-direction: row;
+    height: 460px;
+}
+
+.library{
+    flex:auto;
+    width: 700px;
+}
+
+.svg{
+    flex:auto;
+    text-align: right;
+    margin-top: 16px;
+    border-radius: 7px;
+}
+
+#PulsePeak{
+    text-align: center;
+    font-family: fantasy;
+    color: white;
+}
+
+.Journey{
+    margin-left: 28%;
+    margin-top: -27px;
+    color: rgb(163, 137, 97);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.featured-playlist { 
+    margin-left:1%;
+    cursor: pointer;
+    padding: 5px;
+    border-radius:20px;
+    background-color: black;
+    border-color: white;
+    margin-bottom:2%;
+}
+
+.featured-playlist:hover{
+    border:linear-gradient(green,yellow,red,orange);
+    transform: scaleX(1.2);
+}
+
+.featured-playlist a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    font-size: 0.8em;
+}
+
+#Vector_24{
+    animation-name: play;
+    animation-duration:1s ;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes play {
+   from{
+    transform: translateX(0px);
+    
+   }
+   to{
+    transform: translateX(7px);
+   }
+}
+
+#right-hand{
+    animation-name: strings;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes strings{
+    0%{transform: translateX(0px) ; }
+    20%{transform: translateX(-10px); }
+    40%{transform: translateX(-10px); } 
+    60%{transform: translateX(5px); }
+    80%{transform: translateX(5px); }
+    100%{transform: translateX(0px); }
+}
+
+#left-hand-girl{
+    animation-name: left-hand-shake;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    position: relative;
+    transform-origin: bottom left;
+    transform-box:stroke-box
+}
+
+@keyframes left-hand-shake{
+    0%{transform: rotateZ(0deg);}
+    20%{transform: rotateZ(40deg);}
+    40%{transform: rotateZ(0deg);}
+    60%{transform: rotateZ(-30deg);}
+    80%{transform: rotateZ(-40deg);}
+    100%{transform: rotateZ(0deg);}
+}
+
+.logo{
+    margin-left: 43%;
+    margin-top: 4%;
+    border-radius: 25px;
+}
+
+.featured-playlist-title{
+    background-color: none;
+    width:500px;
+    height:99px;
+    margin-top:5%;
+    margin-left:10%;
+    border-radius:20px;
+}
+
+#featured-playlist-title{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin-top: auto;
+    margin-left: 5%;
+    margin-left:10%;
+    border-radius: 10px;
+    padding:3%;
+}
+
+#music{
+    margin-left:55%;
+    color:  rgb(163, 137, 97);
+    margin-top: -7%;
+}
+
+.fa-sharp.fa-solid.fa-circle-arrow-left.fa-2x{
+    text-align: left;
+    opacity:0.5;
+    margin-top:10%
+}
+
+.fa-sharp.fa-solid.fa-circle-arrow-left.fa-2x:hover{
+    opacity:1;
+}
+
+
+
+.fa-sharp.fa-solid.fa-circle-arrow-right.fa-2x{
+    margin-left:2%;
+    opacity:0.5;
+    margin-top:10%;
+}
+
+.fa-sharp.fa-solid.fa-circle-arrow-right.fa-2x:hover{
+    opacity:1;   
+}
+
+
+.arjit,.anirudh,.ed-sheeren,.taylor-swift{
+    width:300px;
+    height:350px;
+    border:none;
+    box-sizing: content-box;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+    margin-left:2%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.anirudh img,.arjit img,.ed-sheeren img,.taylor-swift img{
+    height: 250px;
+    width:300px;
+    white-space: nowrap;
+}
+
+.container legend{
+    background-color: rgb(170, 157, 157);
+    font-size: larger;
+    border: none;
+    padding: none;
+    margin: none;
+    text-align: center;
+    height: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+
+.anirudh-songs,.ed-sheeren-songs,.arjit-songs,.taylor-swift-songs{
+    text-align: right;
+    background-color: rgb(170, 157, 157);
+    font-size: large;
+
+}
+
+.fa-solid.fa-square-check{
+    margin-right:2%;
+    color:black;
+}
+
+.recommended-albums{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    height:70px;
+    margin-bottom: 3%;
+    font-size: x-large;
+}
+
+.search-box-with-icon{
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 35%;
+    position: absolute;
+}
+
+.search-box-with-icon input[type=text]{
+    width:400px;
+    height:28px;
+    border:2px solid rgb(0, 0, 0);
+    float:left;
+    margin-bottom: 2%;
+    border-right: none;
+    font-size: 17px;
+}
+
+.search-box-with-icon button{
+    padding: 7.2px 15.5px 7.2px 15.5px;
+    cursor: pointer;
+    float: left;
+    border:2px solid rgb(0, 0, 0);
+    border-left: none;
+    opacity:1;
+}
+
+.search-box-with-icon button:hover{
+    padding: 7.2px 15.5px 7.2px 15.5px;
+    cursor: pointer;
+    float: left;
+    border:2px solid rgb(0, 0, 0);
+    border-left: none;
+    opacity:1;
+    background-color: gray;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+}
+
+#container img{
+    width:300px;
+    height:200px;
+    border:none;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#hollywood,#bollywood,#feel-good,#hit-songs{
+    width:300px;
+    height:350px;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    margin-left:2%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#container legend{
+    background-color: rgb(170, 157, 157);
+    font-size: larger;
+    border-top: none;
+    padding: none;
+    margin: none;
+    text-align: center;
+    width:300px;
+    height:50px;
+    padding: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#hollywood:hover,#bollywood:hover,#feel-good:hover,#hit-songs:hover,#container img:hover{
+    width: 350px;
+    height: 400px;
+    cursor: pointer;
+    background-color: rgb(170, 157, 157);
+    font-size: larger;
+    border-top: none;
+    padding: 10px;
+    margin: none;
+}
+#hollywood legend:hover{
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#container button{
+    width:50px;
+    display: inline;
+    background-color: grey;   
+    margin-left:80%;
+    margin-top: -15%;
+    opacity:0;
+}
+
+#container button:hover{
+    opacity:1;
+    width:50px;
+    background-color: grey;
+    margin-left:80%;
+    margin-top: -15%;
+    display: inline;
+}
+
+#user-reviews{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    height:70px;
+    margin-bottom: 3%;
+    font-size: x-large;
+    margin-top:3%;
+}
+
+.user-reviews{
+    display: flex;
+    flex-direction: row;
+}
+
+.comments{
+    flex:50%;
+}
+
+.empty{
+    flex:10%;
+}
+
+.space-to-write-experience{
+    flex:39%;
+    margin-right:1%;
+}
+
+.first-comment{
+    background-color: beige;
+    padding-left:0px;
+    padding-top:0px ;
+    padding-bottom: 0px;
+    border: none ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-comment i{
+    color:rgb(166, 214, 233);
+    margin-top: 5%;
+    margin-bottom: none;
+}
+
+.first-comment p{
+    font-family: cursive;
+    margin-left:4%;
+}
+
+#first-comment{
+    flex:400px;
+    background-color: skyblue;
+    padding: none;
+    width:100%;
+    margin: none;
+    background-size: 50%;
+}
+
+.first-comment img{
+    width:66px;
+    height:70px;
+    border-radius: 50%;
+    margin-left:70%;
+    margin-top:40%;
+}
+
+.first-comment-empty{
+    flex:300px;
+}
+
+.second-comment{
+    background-color: beige;
+    padding-left:0px;
+    padding-top:0px ;
+    padding-bottom: 0px;
+    border: none ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.second-comment-content i{
+    color:rgb(201, 118, 219);
+    margin-top: 5%;
+    margin-bottom: none;
+}
+
+.second-comment p{
+    font-family: cursive;
+    margin-left:4%;
+}
+
+#second-comment{
+    flex:400px;
+    background-color: rgb(201, 118, 219);
+    padding: none;
+    width:100%;
+    margin: none;
+    background-size: 50%;
+}
+
+.second-comment img{
+    width:66px;
+    height:70px;
+    border-radius: 50%;
+    margin-left:70%;
+    margin-top:40%;
+}
+
+.second-comment-empty{
+    flex:300px;
+}
+
+.space-to-write-experience input[type=text]{
+    display:block;
+    width: 600px;
+    height:20px;
+    padding-left:10px;
+    padding-top:0px;
+}
+
+.space-to-write-experience fieldset{
+    border:none;
+}
+
+.space-to-write-experience button{
+    margin-left:90%;
+    padding:5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+footer{
+    padding:10px 0px 0px 0px;
+    margin-top: 20px;
+}
+
+.copyrights{
+    padding:0px 0px 0px 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#copyrights{
+    padding:0px 0px 0px 0px;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-top:-0.99%;
+}
+
+.terms-and-conditions{
+    margin-left:36%;
+    margin-top:2%;
+    padding-top:10px;
+    text-decoration: none;
+    color: rgb(37, 70, 82);
+}
+
+.terms-and-conditions:hover{
+    text-decoration: underline;
+    color: #0087ca;
+}
+
+
+.privacy-policy{
+    margin-left:2%;
+    text-decoration: none;
+    color: rgb(37, 70, 82);
+}
+
+.privacy-policy:hover{
+    text-decoration: underline;
+    position: absolute;
+    color: #0087ca;
+}
+
+
+.authorship-info{
+    display:flex;
+    flex-direction: row;
+}
+
+.social-media{
+    flex:30%;
+}
+
+.social-media p{
+    margin-left:10%;
+    padding-bottom:0px;
+}
+
+.fa-brands.fa-square-instagram{
+    margin-left:11%;
+    padding-top:0px;
+    font-size: xx-large;
+    border-radius: 50%;
+    cursor:pointer;
+
+}
+
+.fa-brands.fa-square-instagram:hover{
+    font-size:40px;
+}
+
+.fa-brands.fa-linkedin{
+    cursor:pointer;
+    margin-left:2%;
+    padding-top:0px;
+    font-size: xx-large;
+}
+
+.fa-brands.fa-linkedin:hover{
+    font-size:40px;
+}
+
+.empty-space{
+    flex:20%;
+    padding:10px 5px 0px 5px;
+}
+
+#authorship-info{
+    flex:40%;
+}
+
+.back-to-top{
+    margin-left:94.33%;
+    padding:10px 5px 10px 5px;
+}
